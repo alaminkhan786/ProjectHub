@@ -24,9 +24,9 @@
                                     <td>{{$project->name}}</td>
                                     <td>{{$project->description}}</td>
                                     <td>{{$project->start_date}}</td>
-                                    <td>{{$project->end_date}}</td>
+                                    <td>{{$project->end_date}}</td> <br>
                                     <td>
-                                        <a href="{{route('add.task', $project->id)}}" class="btn btn-primary">Add</a>
+                                        <a href="{{route('add.task', $project->id)}}" class="btn btn-danger">Add</a>
                                     </td>
                                 </tr>
                                 @endforeach
